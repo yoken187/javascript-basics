@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet"type="text/css"href="style.css">
+    </head>
+    <body>
+        <p id="outputText"></p>
+
+        <script>
+            var text1 = "10";
+            var text2 = "2";
+
+            var num1=stringtoNumber(text1);
+            var num2=stringtoNumber(text2);
+            
+            document.getElementById("outputText").innerHTML=num1 + num2;
+
+            function stringtoNumber(text){
+                return parseInt(text);
+            }
+                        
+        </script>           
+    </body>
+</html>
